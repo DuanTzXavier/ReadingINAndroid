@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.coread.readingin.tool.view.CoReadToolBar
+        android:id="@+id/coread_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:contentInsetStart="0dp">
+
+    </com.coread.readingin.tool.view.CoReadToolBar>
+
+    <ScrollView
+        android:id="@+id/reading_content_scroll_view"
+        android:layout_below="@+id/coread_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_F8F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/color_333333"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="Great Benefits Of Natural
+Skin Care Products"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/color_666666"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:text="Label Label"/>
+
+            <ImageView
+                android:id="@+id/image_cicici"
+                android:layout_width="200dp"
+                android:layout_height="135dp"
+                android:src="@drawable/tsssttt"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/color_444444"
+                android:layout_marginTop="5dp"
+                android:text="中新社长春10月26日电 中国国家海洋局极地考察办公室主任秦为稼26日在长春举行的2017中国极地科学学术年会上提出，中国将尽快构建南北极监测网，升级现有南北极考察站，建设新的南北极考察站，推动极地考察船队的建设，初步建立国家海洋大数据极地分中心。
+　　秦为稼说，中国自上世纪八十年代开展极地工作，30年来成绩斐然，综合实力已经达到国际中等以上水平。但与国家战略需求和世界极地强国相比，中国极地工作还有较大差距。
+　　主要表现在：极地工作长期缺乏顶层设计，发展现状与国家发展进程不相符合;国家南极立法缺失，极地活动综合管理缺少法律依据;极地业务体系建设发展长期缺失，对国家战略需求科技支撑严重不足;参与国际治理议题设置和规则制定的能力不强;极地科研的结构性问题突出，总体投入不足;极地科学各专业领域的研究水平严重不平衡、核心竞争力不强。
+　　“中国极地工作虽然存在诸多需要完善的地方，但国家的高度重视以及当前于我有利的极地国际形势也为中国极地工作的快速发展提供了宝贵机遇”，秦为稼提出，未来国家海洋局将坚持“统一规划、统一建设、统一管理”的指导思想，加快构建布局管理、业务、科研、队伍、全球治理等五个体系建设。
+　　从1985年建立长城站起，中国现有南极科考站四个，分别是长城站、中山站两个常年科学考察站和昆仑站、泰山站两个度夏科学考察站，初步建成涵盖空基、岸基、船基、海基、冰基、海床基的国家南极观测网和“一船四站一基地”的南极考察保障平台，基本满足南极考察活动的综合保障需求。
+　　据介绍，即将新建的第五个南极科考站，选址区域位于罗斯海特拉诺湾的难言岛，已完成现场选址工作。中新社长春10月26日电 中国国家海洋局极地考察办公室主任秦为稼26日在长春举行的2017中国极地科学学术年会上提出，中国将尽快构建南北极监测网，升级现有南北极考察站，建设新的南北极考察站，推动极地考察船队的建设，初步建立国家海洋大数据极地分中心。
+　　秦为稼说，中国自上世纪八十年代开展极地工作，30年来成绩斐然，综合实力已经达到国际中等以上水平。但与国家战略需求和世界极地强国相比，中国极地工作还有较大差距。
+　　主要表现在：极地工作长期缺乏顶层设计，发展现状与国家发展进程不相符合;国家南极立法缺失，极地活动综合管理缺少法律依据;极地业务体系建设发展长期缺失，对国家战略需求科技支撑严重不足;参与国际治理议题设置和规则制定的能力不强;极地科研的结构性问题突出，总体投入不足;极地科学各专业领域的研究水平严重不平衡、核心竞争力不强。
+　　“中国极地工作虽然存在诸多需要完善的地方，但国家的高度重视以及当前于我有利的极地国际形势也为中国极地工作的快速发展提供了宝贵机遇”，秦为稼提出，未来国家海洋局将坚持“统一规划、统一建设、统一管理”的指导思想，加快构建布局管理、业务、科研、队伍、全球治理等五个体系建设。
+　　从1985年建立长城站起，中国现有南极科考站四个，分别是长城站、中山站两个常年科学考察站和昆仑站、泰山站两个度夏科学考察站，初步建成涵盖空基、岸基、船基、海基、冰基、海床基的国家南极观测网和“一船四站一基地”的南极考察保障平台，基本满足南极考察活动的综合保障需求。
+　　据介绍，即将新建的第五个南极科考站，选址区域位于罗斯海特拉诺湾的难言岛，已完成现场选址工作。中新社长春10月26日电 中国国家海洋局极地考察办公室主任秦为稼26日在长春举行的2017中国极地科学学术年会上提出，中国将尽快构建南北极监测网，升级现有南北极考察站，建设新的南北极考察站，推动极地考察船队的建设，初步建立国家海洋大数据极地分中心。
+　　秦为稼说，中国自上世纪八十年代开展极地工作，30年来成绩斐然，综合实力已经达到国际中等以上水平。但与国家战略需求和世界极地强国相比，中国极地工作还有较大差距。
+　　主要表现在：极地工作长期缺乏顶层设计，发展现状与国家发展进程不相符合;国家南极立法缺失，极地活动综合管理缺少法律依据;极地业务体系建设发展长期缺失，对国家战略需求科技支撑严重不足;参与国际治理议题设置和规则制定的能力不强;极地科研的结构性问题突出，总体投入不足;极地科学各专业领域的研究水平严重不平衡、核心竞争力不强。
+　　“中国极地工作虽然存在诸多需要完善的地方，但国家的高度重视以及当前于我有利的极地国际形势也为中国极地工作的快速发展提供了宝贵机遇”，秦为稼提出，未来国家海洋局将坚持“统一规划、统一建设、统一管理”的指导思想，加快构建布局管理、业务、科研、队伍、全球治理等五个体系建设。
+　　从1985年建立长城站起，中国现有南极科考站四个，分别是长城站、中山站两个常年科学考察站和昆仑站、泰山站两个度夏科学考察站，初步建成涵盖空基、岸基、船基、海基、冰基、海床基的国家南极观测网和“一船四站一基地”的南极考察保障平台，基本满足南极考察活动的综合保障需求。
+　　据介绍，即将新建的第五个南极科考站，选址区域位于罗斯海特拉诺湾的难言岛，已完成现场选址工作。第五座南极科考站将是一座常年科考站，可独立支持开展陆地、海洋、大气、冰川等多学科综合科学考察项目。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_CCCCCC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/color_333333"
+                android:maxLines="1"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Words Count: 1000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

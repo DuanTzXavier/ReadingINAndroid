@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_F8F8F8">
+
+
+        <ImageView
+            android:id="@+id/tool_bar_left_button"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tool_bar_menu"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/tool_bar_font"
+            android:id="@+id/tool_bar_read_setting"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tool_bar_left_button"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/tool_bar_circle_hollow"
+            android:id="@+id/tool_bar_right_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tool_bar_read_setting"
+            android:layout_toLeftOf="@+id/tool_bar_right_button"
+            android:textSize="18dp"
+            android:text="今日美文"
+            android:textColor="@color/color_666666"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
